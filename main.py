@@ -12,8 +12,9 @@ def get_pixel_data(current_digit):
         if current_digit == k:
             return v
 
+        # dot
         elif current_digit == ".":
-            return (255, 255, 255)
+            return (0, 0, 0) # black
 
         else:
             pass
