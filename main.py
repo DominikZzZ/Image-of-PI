@@ -1,5 +1,4 @@
 
-import random
 from mpmath import mp
 from PIL import Image
 
